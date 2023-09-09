@@ -65,5 +65,5 @@ public class UserController {
 		UserDto user=userService.getUserById(userId);
 		return new ResponseEntity<UserDto>(user,HttpStatus.OK);
 	}
-	
+	//thanks
 }
