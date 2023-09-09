@@ -65,16 +65,5 @@ public class UserController {
 		UserDto user=userService.getUserById(userId);
 		return new ResponseEntity<UserDto>(user,HttpStatus.OK);
 	}
-	@GetMapping("/getById")
-	ResponseEntity<UserDto>getUserByvId(@RequestParam Integer userId)
-	{
-		UserDto user=userService.getUserById(userId);
-		return new ResponseEntity<UserDto>(user,HttpStatus.OK);
-	}
-	@GetMapping("/getById")
-	ResponseEntity<UserDto>getbUserByvId(@RequestParam Integer userId)
-	{
-		UserDto user=userService.getUserById(userId);
-		return new ResponseEntity<UserDto>(user,HttpStatus.OK);
-	}
+	
 }
